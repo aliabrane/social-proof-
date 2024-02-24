@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-size: 15px;
+    font-family: "League Spartan", sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+@media (max-width:760px) {
+   .container1{
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+    }
+    .container2{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+  
+}
+
+.container1{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header{
+display: flex;
+flex-wrap: wrap;
+width: 50%;
+padding: 60px 190px;
+
+}
+
+h1{
+    color: hsl(300, 43%, 22%);
+    justify-content: flex-start;
+    font-size:35px;
+
+}
+
+.header-desicription{
+    margin-top: 20px;
+    font-weight: 400;
+    justify-content: flex-start;
+    color: rgb(114, 109, 109);
+}
+
+.stars{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+ }
+
+p:not(.header-desicription){
+    display: inline;
+    margin-left: 15px;
+}
+
+.review1{
+ padding:9px 20px;
+  margin-bottom:10px;  
+  background-color: rgba(143, 136, 136, 0.103);
+  border-radius: 5px;
+}
+
+.review2{
+    margin-left: 15%;
+    padding:9px 20px;
+    margin-bottom:10px; 
+    background-color: rgba(143, 136, 136, 0.103);
+}
+
+
+.review3{
+    margin-left: 30%;
+    padding:9px 20px;
+    background-color: rgba(143, 136, 136, 0.103);
+}
+
+.container2{
+    display: flex;
+    gap: 3%;
+    
+
+    justify-content: center;
+   
+}
+
+.card1, .card2, .card3{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 5px;
+    color: white;
+    
+ 
+}
+
+.card1{
+    width: 300px;
+    padding: 30px 40px;
+   
+}
+
+.card2{
+    width: 300px;
+    padding: 30px 40px;
+}
+
+.card3{
+    width: 300px;
+    padding: 30px 40px;
+}
+
+.profil-pic{
+    border-radius: 100px;
+    width: 50px;
+}
+
+h4{
+    margin:-50px 130px 0 70px;
+    
+    color: white;
+    font-weight: 700;
+}
+
+h5{
+   margin-left: 70px;
+   margin-bottom: 20px;
+   color:hsl(333, 80%, 67%) ;  
+   font-weight: 400;
+}
+
+.desicription1 , .desicription2, .desicription3{
+   padding-top:  20px;
+} 
+
+ 
